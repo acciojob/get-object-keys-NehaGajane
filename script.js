@@ -1,6 +1,6 @@
 //your JS code here. If required.
 let student = {
-	name
+	name: "Leo"
 };
 
 console.log(Object.getOwnPropertyNames(student));
