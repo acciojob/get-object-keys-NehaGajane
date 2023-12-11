@@ -3,4 +3,6 @@ let student = {
 	name: "Leo"
 };
 
-console.log(Object.getOwnPropertyNames(student));
+Object.prototype.getKeys = function () {
+  return Object.keys(this);
+}
